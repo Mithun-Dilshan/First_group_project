@@ -1,0 +1,113 @@
+.wrapper {
+	background-color: #fff;
+	width: 500px;
+	padding: 50px;
+	margin: auto;
+	
+}
+.wrapper h2 {
+	background-color: #A7C7E7;
+	color: #0047AB;
+	font-size: 35px;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: -10px;
+	text-align: center;
+	
+}
+form h3 {
+	padding-bottom:5px;
+	color:#0047AB;
+}
+.input-group{
+	margin-bottom:8px;
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	padding:5px 0;
+}
+.input-box {
+	width: 70%;
+	margin-left: 20px;
+	margin-right:12px;
+	position: relative;
+}
+
+.name {
+	padding: 14px 10px 14px 50px;
+	width:100%;
+	background-color:#fcfcfc;
+	border:1px solid #00000033;
+	outline: none;
+	letter-spacing:1px;
+	transition: 0.3s;
+	border-radius:3px;
+	color:#333;
+}
+
+.input-box select: focus {
+	background-color: #4169e1;
+	color:#fff;
+	text-align: center;
+	
+}
+button {
+	width:100%;
+	background: transparent;
+	border: none;
+	background:#7393B3;
+	color:black;
+	padding:15px;
+	border-radius:4px;
+	font-size:16px;
+	font-weight: bold;
+	transition: all 0.35s ease;
+	float:left;
+	margin-left: 50px;
+}
+button:hover {
+      background: #0047AB;
+      }
+input[type=radio] {
+      display: none;
+      }
+      label#icon {
+      margin: 0;
+      border-radius: 5px 0 0 5px;
+      }
+      label.radio {
+      position: relative;
+      display: inline-block;
+      padding-top: 4px;
+      margin-right: 20px;
+      text-indent: 30px;
+      overflow: visible;
+      cursor: pointer;
+      }
+      label.radio:before {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 0;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #4682B4;
+      }
+      label.radio:after {
+      content: "";
+      position: absolute;
+      width: 9px;
+      height: 4px;
+      top: 8px;
+      left: 4px;
+      border: 3px solid #fff;
+      border-top: none;
+      border-right: none;
+      transform: rotate(-45deg);
+      opacity: 0;
+      }
+      input[type=radio]:checked + label:after {
+      opacity: 1;
+      }
