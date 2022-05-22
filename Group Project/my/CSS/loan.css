@@ -1,0 +1,260 @@
+/* body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    overflow-x: hidden;
+    min-height:100vh; 
+    position:relative;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 100px; 
+} */
+
+.col-1 {
+    float: left;
+    width: 8%;
+}
+
+.col-2 {
+    float: left;
+    width: 17%;
+}
+
+.col-3 {
+    float: left;
+    width: 24.62%;
+}
+
+.col-4 {
+    float: left;
+    width: 33%;
+}
+
+.col-6 {
+    float: left;
+    width: 49.5%;
+}
+
+.col-8 {
+    float: left;
+    width: 67%;
+}
+
+.col-9 {
+    float: left;
+    width: 74.5%;
+}
+
+.col-10 {
+    float: left;
+    width: 83%;
+}
+
+.col-12 {
+    float: left;
+    width: 100%;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.button {
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.2s ease-in;
+    font-size: 17px;
+}
+
+.blue {
+    background-color: #0060ba !important;
+}
+
+.green {
+    background-color: #4CAF50 !important;
+}
+
+.red {
+    background-color: #f44336 !important;
+}
+
+.gray {
+    background-color: #e7e7e7 !important;
+}
+
+.black {
+    background-color: #3a3939 !important;
+}
+
+/* input[type=text],
+input[type=date],
+input[type=number],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: medium;
+} */
+
+#nic, #name, #address1, #address2, #city, #amount, #period, #mobile, #coNic, #selectedLoanId, #selectedNic, #selectedName, #selectedAmount, #selectedPeriod {
+    width: 100%;
+    height: 55%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+input[type=text]:disabled {
+    background: #dddddd;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+fieldset {
+    padding: 10px 15px 10px 15px;
+    border: 2px solid rgba(165, 177, 174, 0.459);
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    margin-left: 1%;
+    margin-right: 1%;
+    background: rgb(248, 248, 248);
+}
+.legend1 {
+    width: auto;
+    margin: 0px 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.button-sm {
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.readonly{
+    background: #dddddd;
+}
+
+label {
+    font-weight: 500;
+    font-size: 90%;
+}
+
+/* --------------- Table css ------------------ */
+#loans {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: auto;
+}
+
+#loans td,
+#loans th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#loans tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#loans tr:hover {
+    background-color: #ddd;
+}
+
+#loans th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #13025c;
+    color: white;
+}
+/* -------------------------------------------- */
+
+
+/* ---------- Modal css ----------------------- */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* -------------------------------------------- */
