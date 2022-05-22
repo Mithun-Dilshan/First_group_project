@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>FAQ | Samarasingha Land Sale</title>
+    <link rel="stylesheet" href="Css/FAQ.css">
+    <link rel="stylesheet" href="Css/footer.css">
+    <script src="Js/FAQ.js"></script>
+</head>
+
+<body>
+
+
+  <div class="dev">
+    <nav class="nev">
+       <span  onclick="openNav()">&#9776; More</span>
+        <a href=#webpage> Home </a>
+        <a href=#webpage>  About us  </a>
+        <a href=#webpage>Contacts us</a>
+        <img src="Images/Profile.jpg" class="img">
+     </nav>
+
+     <input type="text" placeholder="Search.." class="search">
+     <img src="Images/Logo.png" class="logo">
+
+  </div>
+
+
+  <input type="button" value="register" class="reg">
+  <input type="button" value="login" class="log">
+
+  <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#">Sale</a>
+      <a href="#">Land List</a>
+      <a href="#">Career</a>
+      <a href="#">News</a>
+      <a href="#">FAQ</a>
+    </div>
+ </div>
+
+<!-- FAQ section -->
+  <div class="bg-image"
+      style="background-image: url('Images/FAQimage.jpg');">
+      <div class="centered">FAQ</div>
+ </div>
+
+<!-- FAQ section -->
+<div class="accordion-bg">
+<main>
+     <button class="accordion">How to Create an account in Samarasingha Land sale.lk ?</button>
+     <div class="answer">
+       <p>Simply click Sign Up and provide necessary details and click register.
+            You will receive a confirmation via e-mail and click verification link to access as a registered member.</p>
+     </div>
+
+
+
+
+
+
+ <button class="accordion">How to post an advertisement to sell my property?</button>
+ <div class="answer">
+   <p>Once you create an account and become a registered member, immediately you can start posting advertisements.
+        Go to Post Your Ad and select the type of post and select property type and fill the designated form with necessary details and content. That’s it.</p>
+ </div>
+
+
+
+ <button class="accordion">How much time it will take to appear my ad in the website?</button>
+ <div class="answer">
+   <p>Samarasingha Land sale.lk has a designated division for quality assurance and content management.
+        It will take from 1 hour to 24 hours to appear your advertisement and if you have any concern you can always
+        shoot us an e-mail to support@Samarasinghalandsale.lk.</p>
+ </div>
+
+
+ <button class="accordion">How many pictures can I upload per advertisement ?</button>
+ <div class="answer">
+   <p>You can upload minimum 2 and up to 10 pictures per advertisement. The pictures can be JPG, GIF or TIFF format.
+        We recommend keeping the picture size to less than 1 MB, however larger pictures will be auto re-sized when you upload.
+        If the image upload is taking too long then it could be due to the size of the pictures and we recommend uploading pictures one by one in such situations.</p>
+ </div>
+
+
+ <button class="accordion">For which cities do you offer your services in Sri Lanka ?</button>
+ <div class="answer">
+   <p>You can post advertisements for properties located anywhere in Sri Lanka.</p>
+ </div>
+
+
+ <button class="accordion">How to contact Samarasingha Land sale.lk ?</button>
+ <div class="answer">
+   <p>You can contact us via support@Samarasinghalandsale.lk and
+      if you need any assistance by our technical assistance agent please mention your contact number and our team will contact you as soon as possible.</p>
+ </div>
+
+
+ <button class="accordion">How to recover forgotten password or an account ?</button>
+ <div class="answer">
+   <p>Head to the CeylonProperty.lk sign-in page and click the “Forgot Password” link.
+      Click “Send verification” and verify it by clicking the link which will be sent to your e-mail.</p>
+ </div>
+
+
+ <button class="accordion">How do I edit/delete my advertisement?</button>
+ <div class="answer">
+   <p>You can login to your account and click on the My Ads and select the advertisement you want to edit and
+      then click on the EDIT button to do the changes accordingly. We maintain high standard of quality assurance and
+      even when you edit your advertisement you have to wait till the approval of our quality assurance and content management team.</p>
+ </div>
+
+
+ <button class="accordion">Why should I choose Samarasingha Land sale.lk ? </button>
+ <div class="answer">
+   <p>Samarasinghalandsale.lk is an online market-place for real estate dedicated to all sorts of properties in Sri Lanka.
+      We started this with the purpose of offering the property owners and seekers a standardized & a professional property platform
+      with a hassle-free service in property advertising and exploring. With the simplicity driven with the latest technology in property publishing
+      and property search along with the courteous assistance at all times, Samarasinghalandsale.lk have raised the bar in online property listing
+      standards.</p>
+ </div>
+</main>
+</div>
+
+ <script>
+ var acc = document.getElementsByClassName("accordion");
+ var i;
+
+ for (i = 0; i < acc.length; i++) {
+   acc[i].addEventListener("click", function() {
+     this.classList.toggle("active");
+     var panel = this.nextElementSibling;
+     if (panel.style.maxHeight) {
+       panel.style.maxHeight = null;
+     } else {
+       panel.style.maxHeight = panel.scrollHeight + "px";
+     }
+   });
+ }
+ </script>
+</body>
+<footer>
+ <div class="footer-content">
+
+   <h3>Samarasingha Land Sale</h3>
+   <p>+94114548459<br>
+   +94714348963</p>
+
+   <ul class="socials">
+     <li><a href="https://www.facebook.com/login.php"><i class="fa fa-facebook"></i></a></li>
+     <li><a href="https://twitter.com/i/flow/login"><i class="fa fa-twitter"></i></a></li>
+     <li><a href="https://myaccount.google.com/profile"><i class="fa fa-google-plus"></i></a></li>
+     <li><a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
+     <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square"></i></a></li>
+  </ul>
+</div>
+
+</footer>
+</html>
