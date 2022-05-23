@@ -2,9 +2,10 @@
 <html>
 <head>
   <title>Feedback|Samarasingha Land Sale</title>
-    <link rel="stylesheet" href="Css/FAQ.css">
-    <link rel="stylesheet" href="Css/feedback.css">
-    <link rel="stylesheet" href="Css/footer.css">
+    <link rel="stylesheet" href="CSS/FAQ.css">
+    <link rel="stylesheet" href="CSS/feedback.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <script src="https://kit.fontawesome.com/88d81e3dd6.js" crossorigin="anonymous"></script>
     <script src="Js/FAQ.js"></script>
 </head>
 
@@ -15,11 +16,11 @@
         <a href=#webpage> Home </a>
         <a href=#webpage>  About us  </a>
         <a href=#webpage>Contacts us</a>
-        <img src="Images/Profile.jpg" class="img">
+        <img src="Image/Profile.jpg" class="img">
      </nav>
 
      <input type="text" placeholder="Search.." class="search">
-     <img src="Images/Logo.png" class="logo">
+     <img src="Image/Samarasingha land sale.png" class="logo">
 
   </div>
 
@@ -66,10 +67,10 @@
   include("config.php");
     if(isset($_POST['savebtn']))
       {
-        $Feedback_Id = $_POST['Feedback_Id'];
+        // $Feedback_Id = $_POST['Feedback_Id'];
         $C_name = $_POST['C_name'];
         $Feedback = $_POST['Feedback'];
-        $sql = "INSERT INTO Feedback (Feedback_Id,C_name,Feedback)
+        $sql = "INSERT INTO feedback (Feedback_Id,C_name,Feedback)
 	      VALUES('$Feedback_Id','$C_name','$Feedback')";
 
    if(mysqli_query($conn, $sql))
@@ -107,7 +108,7 @@
   }
 ?>
 </table>
-</body>
+
 <footer>
  <div class="footer-content">
 
@@ -125,4 +126,5 @@
 </div>
 
 </footer>
+</body>
 </html>

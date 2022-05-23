@@ -6,9 +6,11 @@ $result = mysqli_query($conn,"SELECT * FROM land");
 <html>
  <head>
    <title>Land Manager Page| Samarasingha Land Sale</title>
-   <link rel="stylesheet" href="Css/FAQ.css">
+   <link rel="stylesheet" href="CSS/FAQ.css">
    <script src="Js/FAQ.js"></script>
-   <link rel="stylesheet" href="Css/LandManager.css">
+   <link rel="stylesheet" href="CSS/LandManager.css">
+   <link rel="stylesheet" href="CSS/footer.css">
+   <script src="https://kit.fontawesome.com/88d81e3dd6.js" crossorigin="anonymous"></script>
  </head>
 <body>
     <div class="dev">
@@ -17,11 +19,11 @@ $result = mysqli_query($conn,"SELECT * FROM land");
           <a href=#webpage> Home </a>
           <a href=#webpage>  About us  </a>
           <a href=#webpage>Contacts us</a>
-          <img src="Images/Profile.jpg" class="img">
+          <img src="Image/Profile.jpg" class="img">
        </nav>
 
        <input type="text" placeholder="Search.." class="search">
-       <img src="Images/Logo.png" class="logo">
+       <img src="Image/Samarasingha land sale.png" class="logo">
 
     </div>
 
@@ -80,12 +82,32 @@ if (mysqli_num_rows($result) > 0) {
 			?>
 </table>
 </div>
- <?php
-}
-else
-{
-    echo "No result found";
-}
-?>
+  <?php
+      }
+        else
+      {
+        echo "No result found";
+      }
+  ?>
+
+  <footer>
+   <div class="footer-content">
+
+     <h3>Samarasingha Land Sale</h3>
+     <p>+94114548459<br>
+     +94714348963</p>
+
+     <ul class="socials">
+       <li><a href="https://www.facebook.com/login.php"><i class="fa fa-facebook"></i></a></li>
+       <li><a href="https://twitter.com/i/flow/login"><i class="fa fa-twitter"></i></a></li>
+       <li><a href="https://myaccount.google.com/profile"><i class="fa fa-google-plus"></i></a></li>
+       <li><a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
+       <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square"></i></a></li>
+    </ul>
+  </div>
+
+  </footer>
+
+
  </body>
 </html>

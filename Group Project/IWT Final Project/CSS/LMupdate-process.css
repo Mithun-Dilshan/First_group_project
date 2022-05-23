@@ -1,0 +1,63 @@
+body{
+  background-color: #FBF3E4;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+fieldset {
+  background-color: #eeeeee;
+  margin: 30px;
+}
+
+input{
+  margin: 5px;
+}
+
+label{
+   display: inline-block;
+   width: 110px;
+   color: #777777;
+   text-align: left;
+   padding: 20px;
+   /* margin-left: 40%; */
+}
+
+.txtField{
+  height: 50px;
+  width: 50%;
+}
+
+
+.btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn{
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.btn:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-align-right{
+	text-align: right;
+}

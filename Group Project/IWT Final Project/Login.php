@@ -1,6 +1,6 @@
 
 <?php
-    include "./config.php";
+    include "config.php";
     if(isset($_POST["uname"])){
 
     $uname = $_POST["uname"]; // post method from form
@@ -40,8 +40,10 @@
 <html>
 <head>
   <title>LOG IN | Samarasingha Land Sale</title>
-    <link rel="stylesheet" href="Login.css">
-    <script src="Login.js"></script>
+    <link rel="stylesheet" href="CSS/Login.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <script src="Js/Login.js"></script>
+    <script src="https://kit.fontawesome.com/88d81e3dd6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -52,11 +54,11 @@
         <a href=#webpage> Home </a>
         <a href=#webpage>  About us  </a>
         <a href=#webpage>Contacts us</a>
-        <img src="Images/Profile.jpg" class="img">
+        <img src="Image/Profile.jpg" class="img">
      </nav>
 
      <input type="text" placeholder="Search.." class="search">
-     <img src="Images/Logo.png" class="logo">
+     <img src="Image/Samarasingha land sale.png" class="logo">
 
   </div>
 
@@ -78,10 +80,10 @@
 
 <!-- LOGIN FORM -->
 
-<div class="bg-image" style="background-image: url('Images/login.jpg');">
+<div class="bg-image" style="background-image: url('Image/login.jpg');">
 
 <div class="loginbox">
-  <img class="user" src="Images/User.png" alt="User icon">
+  <img class="user" src="Image/User.png" alt="User icon">
   <h1>Login Here</h1>
   <form action = "Login.php" method="POST">
     <p>Username</p>
@@ -98,17 +100,23 @@
 </div>
 </div>
 
+<footer>
+ <div class="footer-content">
 
+   <h3>Samarasingha Land Sale</h3>
+   <p>+94114548459<br>
+   +94714348963</p>
 
+   <ul class="socials">
+     <li><a href="https://www.facebook.com/login.php"><i class="fa fa-facebook"></i></a></li>
+     <li><a href="https://twitter.com/i/flow/login"><i class="fa fa-twitter"></i></a></li>
+     <li><a href="https://myaccount.google.com/profile"><i class="fa fa-google-plus"></i></a></li>
+     <li><a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
+     <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square"></i></a></li>
+  </ul>
+</div>
 
-<!--
- <div class="footer">
-    <a href="https://web.whatsapp.com/"><img src="pngegg (4).png" class="whatsapp"></a>
-    <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><img src="clipart2517877.png" class="twitter"></a>
-    <a href="https://www.instagram.com/?hl=en"><img src="Daco_781797.png" class="Instergram"></a>
-    <a href="https://www.facebook.com"><img src="Popular-Logo-facebook-icon-png.png"  class="facebook"></a>
- </div>
--->
+</footer>
 
 </body>
 </html>

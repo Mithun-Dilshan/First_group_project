@@ -1,0 +1,55 @@
+ legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+fieldset {
+  background-color: #eeeeee;
+  margin: 40px;
+  padding: 20px;
+
+}
+
+input{
+  margin: 5px;
+
+}
+
+label{
+   display: inline-block;
+   width: 110px;
+   color: #777777;
+   text-align: left;
+   margin-left: 100px;
+}
+
+.txt-area{
+  height: 70px;
+  width: 50%;
+  margin-left: 220px;
+  margin-top: 50px;
+}
+
+.txt{
+  height: 30px;
+  width: 50%;
+  margin-left: 100px;
+}
+
+.submit-btn{
+  background-color: #555555;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 8px;
+  padding: 10px 24px;
+}
+
+.submit-btn:hover {
+  background-color: white;
+  color: #555555;
+}
+
+.btn{
+  text-align: right;
+}
