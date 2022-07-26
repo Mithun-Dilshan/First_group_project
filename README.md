@@ -1,10 +1,7 @@
 #   Online Land Sale system
 ![Samarasingha land sale](https://user-images.githubusercontent.com/97043091/181000470-2e5f8fb2-d15c-41b3-b128-dda6bcb70769.png)
 
-| Name | Description |                
-| --- | --- |
-| git status | List all new or modified files |               
-| git diff | Show file differences that haven't been staged |        
+      
 
 
 
@@ -17,7 +14,7 @@
 
 ## Project Contributors
 
-| Left-aligned | Center-aligned | Right-aligned |
+| Name | Role |  |
 | :---         |     :---:      |          ---: |
 | git status   | git status     | git status    |
 | git diff     | git diff       | git diff      |
