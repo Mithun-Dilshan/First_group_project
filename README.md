@@ -16,15 +16,20 @@
 
 | Name | Role |  |
 | :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-| git diff     | git diff       | git diff      |
-| git diff     | git diff       | git diff      |
-| git diff     | git diff       | git diff      |
+| Erandi piyumali   | Customer page , Land List and About us page     | Group Leader    |
+| Mithun Dilshan     | Home page and Admin panel       | Group member      |
+| Savindaya     | Login , Credit Officer Page ,Feedback page and FAQ         | Group member      |
+| Malan     | Land Manager Page , Contacts Us Page and Loan        | Group member     |
+| Dasunika Ekanayake     | Register page , Saler Page and Conform         | Group member      |
 
 | Name | role |  |
 | _ _ _ | _ _ _ | _ _ _ _ |
-| Erandi             | Customer page , Land List                         | Group Leader     |
+| Erandi piyumali
+
+Savindaya
+malan
+Dasunika Ekanayake
+| Customer page , Land List                         | Group Leader     |
 | Mithun Dilshan     | Home page and Admin panel                         | Group member     |     
 ### 
 
