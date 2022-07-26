@@ -12,7 +12,10 @@
 
 
 ## Project Contributors
-
+|  Name              |                      role                         |                  |
+|_ _ _ _ _ _ _ _ _ _ | _ _ _ _ _                                         |   _ _ _ _        |
+| Erandi             | Customer page , Land List                         | Group Leader     |
+| Mithun Dilshan     | Home page and Admin panel                         | Group member     |     
 ### 
 
 ## Technologies ?
