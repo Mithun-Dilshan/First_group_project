@@ -1,6 +1,5 @@
 #   Online Land Sale system
-
-                                         ![Samarasingha land sale](https://user-images.githubusercontent.com/97043091/181000470-2e5f8fb2-d15c-41b3-b128-dda6bcb70769.png)
+![Samarasingha land sale](https://user-images.githubusercontent.com/97043091/181000470-2e5f8fb2-d15c-41b3-b128-dda6bcb70769.png)
 
 
 
