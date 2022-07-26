@@ -16,22 +16,13 @@
 
 | Name | Role |  |
 | :---         |     :---:      |          ---: |
-| Erandi piyumali   | Customer page , Land List and About us page     | Group Leader    |
+| Erandi Piyumali   | Customer page , Land List and About us page     | Group Leader    |
 | Mithun Dilshan     | Home page and Admin panel       | Group member      |
-| Savindaya     | Login , Credit Officer Page ,Feedback page and FAQ         | Group member      |
-| Malan     | Land Manager Page , Contacts Us Page and Loan        | Group member     |
+| Savindya Wijesinghe     | Login , Credit Officer Page ,Feedback page and FAQ         | Group member      |
+| Malan Jayaranga    | Land Manager Page , Contacts Us Page and Loan        | Group member     |
 | Dasunika Ekanayake     | Register page , Saler Page and Conform         | Group member      |
 
-| Name | role |  |
-| _ _ _ | _ _ _ | _ _ _ _ |
-| Erandi piyumali
 
-Savindaya
-malan
-Dasunika Ekanayake
-| Customer page , Land List                         | Group Leader     |
-| Mithun Dilshan     | Home page and Admin panel                         | Group member     |     
-### 
 
 ## Technologies ?
 Various technologies are used to create and maintain website. We use lot of technical 
