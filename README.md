@@ -1,5 +1,4 @@
 #   Online Land Sale system
-![Untitled](https://user-images.githubusercontent.com/97043091/180997658-9f830fa0-feb0-4cde-9a3e-024d4be8ba84.png)
 
 
 
@@ -7,7 +6,21 @@
 
 
 
-## how to work our websit ?
+
+
+
+
+## Project Contributors
+
+### 
+
+## Technologies ?
+Various technologies are used to create and maintain website. We use lot of technical 
+types to create a web site. These are programming languages (PHP, JAVA 
+SCRIPT , CSS and  HTML). relations database is MySQL, Access. This technology will 
+give a platform for land sellers and buyers on the internet.
+
+## How to work our websit ?
 
  Whether you're a businessperson searching for new initiatives to invest 
 in or a family hoping to construct a secure and stable foundation, 
@@ -36,4 +49,7 @@ user logging details. Then the seller and customer can contact each
 other’s. And he/she can send feedback to the system. The system admin 
 updates the system and will check the details of all users and all the 
 accounts of the users.
+
+
+![Untitled](https://user-images.githubusercontent.com/97043091/180997658-9f830fa0-feb0-4cde-9a3e-024d4be8ba84.png)
 
